@@ -1,0 +1,73 @@
+        <!-- MENU BARRA LATERAL -->
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="text-center">
+                            <a class="navbar-brand" href="index.php">
+                                <img class="logotipo" src="images/logo.png" alt="logo_tribuno" style="width:150px; height:150px;">
+                            </a>
+                        </div>
+                        <!-- <div class="sb-sidenav-menu-heading">Secciones</div> -->
+                        <a class="nav-link" href="panel_admin.php">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Inicio Panel
+                        </a>
+                        <div class="sb-sidenav-menu-heading">Interface</div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseCajas" aria-expanded="false" aria-controls="collapseCajas">
+                            <div class="sb-nav-link-icon"><i class="bi bi-cash-coin"></i></div>
+                            Caja
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseCajas" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav" style="font-size:13px ;">
+                                <a class="nav-link" href="facturacion_index.php"><i class="bi bi-currency-dollar"></i>&nbsp;Facturación</a>
+                                <a class="nav-link" href="apertura_form.php"><i class="bi bi-inboxes-fill"></i>&nbsp;Apertura/Cierre de Caja</a>
+                                <a class="nav-link" href="arqueo_caja.php"><i class="bi bi-journal-check"></i></i>&nbsp;Control de Caja Diaria</a>
+                            </nav>
+                        </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="bi bi-arrow-left-right"></i><!--<i class="fas fa-columns"></i>--></div>
+                            Procedimientos
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav" style="font-size:13px ;">
+                                <a class="nav-link" href="personas_form.php"><i class="bi bi-person-fill"></i>&nbsp;Personas</a>
+                                <a class="nav-link" href="deportes_form.php"><i class="fa-solid fa-basketball"></i>&nbsp;Deportes</a>
+                                <a class="nav-link" href="categorias_form.php"><i class="bi bi-list-stars"></i>&nbsp;Categorias</a>
+                                <a class="nav-link" href="equipamiento_form.php"><i class="fa-solid fa-shirt"></i>&nbsp;Equipamiento</a>
+                                <a class="nav-link" href="ingreso_form.php"><i class="fa-solid fa-money-check-dollar" style="font-size: 15px;"></i>&nbsp;Tipo de ingreso</a>
+                                <a class="nav-link" href="rol_form.php"><i class="fa-solid fa-user-tie"></i>&nbsp;Rol</a>
+                                <!-- <a class="nav-link" href="actividades_form.php"><i class="fa-solid fa-users"></i>&nbsp;Actividades</a> -->
+                            </nav>
+                        </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProces" aria-expanded="false" aria-controls="collapseProces">
+                            <div class="sb-nav-link-icon"><i class="bi bi-calendar3"></i><!--<i class="fas fa-columns"></i>--></div>
+                            Procesos
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseProces" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav" style="font-size:13px ;">
+                                <a class="nav-link" href="control_equipamiento.php"><i class="bi bi-clipboard-check-fill"></i>&nbsp;Control Equipamiento</a>
+                                <a class="nav-link" href="control_jugador.php"><i class="bi bi-person-workspace"></i>&nbsp;Control Jugador</a>
+                            </nav>
+                        </div>
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseGraphics" aria-expanded="false" aria-controls="collapseGraphics">
+                            <div class="sb-nav-link-icon"><i class="bi bi-bar-chart-line-fill"></i><!--<i class="fas fa-columns"></i>--></div>
+                                Graficos
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseGraphics" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav" style="font-size:13px ;">
+                                <a class="nav-link" href="panel_graficos.php"><i class="bi bi-graph-up"></i>&nbsp;Salidas Tácticas</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- MENU BARRA LATERAL -->

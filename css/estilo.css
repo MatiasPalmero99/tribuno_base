@@ -1,0 +1,157 @@
+body{
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto', sans-serif
+}
+
+/* CONTACTO */
+
+.contact div{
+    padding: 2px 0px;
+}
+
+.contact div div{
+    height: 25px;
+}
+
+.contact div div p{
+    color: rgb(209, 207, 207);
+    margin-right: 5px
+}
+
+.contact div div a i{
+    color: white;
+    padding: 2px 5px;
+}
+
+.contact div div a i:hover{
+    color: white;
+    padding: 1px 4px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.fixe{
+    background: linear-gradient(to bottom right, rgba(2, 67, 2, 0.949), rgb(3, 171, 3));
+    color: #fff;
+}
+
+/* MENU */
+
+/* Scroll transparente a color*/
+
+.sps--abv {
+    background-color: transparent;
+    color: #000;
+}
+
+.sps--blw {
+    background: linear-gradient(to bottom right, rgba(2, 67, 2, 0.949), rgb(3, 171, 3));
+    color: #fff;
+}
+
+/* submenú */
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.978);
+    opacity:0.9 ;
+    border: 4px solid green;
+}
+
+
+.dropdown-menu li a{
+    color: white;
+}
+
+.logotipo{
+    width: 95px;
+    height: 95px;
+}
+
+.iniciar-sesion div a{
+    text-decoration: none;
+    color: rgb(241, 240, 240);
+    border: 1px solid rgb(178, 176, 176);
+    border-radius: 10px;
+    padding: 5px;    
+}
+
+.iniciar-sesion div a:hover{
+    text-decoration: none;
+    background-color:rgba(3, 171, 3, 0.927) ;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+/* SLIDER */
+
+.carrusel{
+    margin-top: 0px;
+}
+
+.carousel-inner div img{
+    height: 850px;
+}
+
+
+
+.secthead{
+    height: 700px;
+}
+
+.escudo img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.secthead .escudo {
+    animation: movimiento 2.5s linear infinite;
+}
+
+@keyframes movimiento {
+
+    0% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(50px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+}
+
+/* FIN SLIDER */
+
+section .container{
+    margin-top: 30px;
+}
+
+
+/*.categorias{
+    border: 2px solid red;
+}*/
+
+.categorias .container .row{
+    padding: 0 0 10px 0;
+    justify-content: center;
+    margin: 0 0 15px 0;
+   /*border: 3px solid black;*/
+}
+
+.categorias .container .row .card{
+    margin: 5px;
+}
+
+.categorias .container div img{
+    padding-top: 10px;
+/*    border: 3px solid black;*/
+}
