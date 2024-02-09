@@ -94,9 +94,14 @@ include 'template/header.html';
                                 }else{
         ?>
                                     <tr>
-                                        <td colspan="5" class="text-center"><span><strong>Aun no se han realizado movimientos de caja por facturaci&oacute;n o cobro de cuotas</strong></span></td>
+                                        <td class="text-center"><span><strong>Aun no se han realizado movimientos de caja por facturaci&oacute;n o cobro de cuotas</strong></span></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
         <?php 
+                                        $total_caja_diaria=0;;
                                     }
                                 }
         ?>
@@ -104,9 +109,11 @@ include 'template/header.html';
                                 
                                 <tfoot>
                                     <tr>
-                                        <td colspan="3" class="text-end"><strong>TOTAL:</strong></td>
-                                        <td class="text-end"><strong class="text-danger">$ <?php echo number_format($total_caja_diaria,2,'.','') ?></strong></td>
                                         <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>TOTAL:</td>
+                                        <td class="text-end"><strong class="text-danger">$ <?php echo number_format($total_caja_diaria,2,'.','') ?></strong></td>
                                     </tr>
                                 </tfoot>
                             </table>

@@ -426,17 +426,10 @@ include 'template/header_admin.html';
 
 
 
-            <footer class="pb-3 mt-5 bg-light">
-                <div class="container-fluid px-4">
-                    <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; Troyanos 2022</div>
-                        <div>
-                        <img src="images/troyanos-log3.png" alt="TROYANOS" title="TROYANOS" class="img-responsive" width="180px" height="60px" style="text-align: right;" />
-
-                            <!--<a href="#">Privacy Policy</a>
-                            &middot;
-                            <a href="#">Terms &amp; Conditions</a>-->
-                        </div>
+            <footer class="text-body-secondary py-3">
+                <div class="container">
+                    <div class="text-center">
+                        <p class="mb-1">&copy; Matias Palmero. All Rights Reserved</p>
                     </div>
                 </div>
             </footer>

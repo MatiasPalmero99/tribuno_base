@@ -24,7 +24,7 @@
                 </div>
                 <div class="modal-footer">
                     <button id="Modificar" name="Modificar" type="submit" class="btn btn-success">Guardar datos</button>
-                    <button type="button" class="btn bg-danger text-white" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn bg-danger text-white" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </form>
         </div>

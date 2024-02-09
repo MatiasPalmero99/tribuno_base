@@ -2,9 +2,7 @@
     include '../conexiondb_club.php';
 
         try{
- 
             $conexionDB->begin_transaction(MYSQLI_TRANS_START_READ_WRITE);
-
             //Recuperar datos de caja(id)
             $caja= "SELECT * from caja ORDER BY id_caja DESC LIMIT 1 ";
             $resultadocaja=$conexionDB->query($caja);
