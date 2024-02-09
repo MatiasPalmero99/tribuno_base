@@ -31,7 +31,7 @@ include 'template/navbar_top.html';
                 </div>
                 <div class="col-12 col-md-6 my-2">
                     <ol class="breadcrumb" style="float: right;">
-                        <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                        <!-- <li class="breadcrumb-item"><a href="index.php">Inicio</a></li> -->
                         <li class="breadcrumb-item"><a href="panel_admin.php">Panel Administración</a></li>
                         <li class="breadcrumb-item"><a href="arqueo_caja.php">Control de Caja Diaria</a></li>
                         <li class="breadcrumb-item active">Detalle de Cobro</li>

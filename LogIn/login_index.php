@@ -35,6 +35,9 @@
                     <img src="../images/logo.png" width="70" class="m-0" alt="">
                 </div>
                 <h2 class="fst-italic fw-bold text-center pt-1 mb-2 mb-lg-4">Bienvenido</h2>
+                <p>Este es un prototipo de sistema real del club "El Tribuno Basquet"</p>
+                <p>Usuario: MatiPalm</p>
+                <p>Clave: 1234</p>
 
 
                 <form method="POST" action="login_funcionamiento.php">

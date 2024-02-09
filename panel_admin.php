@@ -16,7 +16,7 @@
                         </div>
                         <div class="col-12 col-md-6 my-2">
                             <ol class="breadcrumb" style="float: right;">
-                                <li class="breadcrumb-item"><a href="index.php">Inicio</a></li>
+                                <!-- <li class="breadcrumb-item"><a href="index.php">Inicio</a></li> -->
                                 <li class="breadcrumb-item active">Panel administración</li>
                                 
                             </ol>
@@ -58,7 +58,7 @@
                         </div>
                         
                         <ol class="breadcrumb mt-3">
-                            <li class="breadcrumb-item active">Procedimientos</li>
+                            <li class="breadcrumb-item active">Tablas base</li>
                         </ol>
                         <div class="row">
                             <div class="col-xl-3 col-md-6">
@@ -152,9 +152,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- </div> -->
+                        </div>
                         <ol class="breadcrumb mt-3">
-                            <li class="breadcrumb-item active">Salidas Tácticas y Estrátegicas</li>
+                            <li class="breadcrumb-item active">Estadisticas</li>
                         </ol>
                         <div class="row">
                             <div class="col-xl-3 col-md-6">
